@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Card Validation</title>
+  <link href="./styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <form id="creditCardForm">
+      <label for="creditCardNumber">Enter Credit Card Number:</label>
+    <input type="text" id="creditCardNumber" name="creditCardNumber" placeholder="Enter your credit card number" required>
+  <button type="submit">Validate</button>
+  <div id="validationStatus"></div>
+</form>
+
+  
+  <ul id="cardList"></ul>
+  
+  <button type="button" id="restartButton">Restart</button>
+  <script src="main.js"></script>
+</body>
+</html>
