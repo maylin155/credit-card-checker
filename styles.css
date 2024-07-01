@@ -73,16 +73,20 @@ body {
     justify-content: space-between;
     align-items: center;
   }
-  .delete-btn {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-left: 20px;
-  }
-  .delete-btn:hover {
-    background-color: #e53935;
-  }
 
+    
+    
+    .delete-btn {
+      background-color: #f44336;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 20px;
+      }
+
+      .delete-btn i {
+        color: white; /* Change color as needed */
+        font-size: 16px; /* Adjust size as needed */
+      }
+        

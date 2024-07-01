@@ -75,7 +75,7 @@ function validateCard(array) {
     listItem.textContent = `${cardNumber} - ${isValid ? 'Valid' : 'Invalid'}`;
     
     let deleteButton = document.createElement('button');
-    deleteButton.textContent = 'Delete';
+    deleteButton.innerHTML = '<i class="fas fa-trash"></i>';
     deleteButton.className = 'delete-btn';
     deleteButton.onclick = function() {
       cardList.removeChild(listItem);
