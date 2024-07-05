@@ -31,3 +31,9 @@ None
    git clone https://github.com/your_username/credit-card-validator.git
 
 2. Open "index.html" in your browser.
+
+
+#Preview of Credit Card Validator
+![Screenshot from 2024-07-06 00-19-46](https://github.com/maylin155/credit-card-checker/assets/108334816/45f5b948-ede8-4a12-8353-4d9fe01843f1)
+
+   
